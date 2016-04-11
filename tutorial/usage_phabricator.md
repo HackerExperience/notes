@@ -186,3 +186,123 @@ Não se esqueça de adicionar as imagens do Mockup no espaço *Drag and drop*
 Depois de tudo pronto, só clicar no botão `Create`
 
 ![](common/create.png)
+
+
+---
+
+
+## Paste
+
+
+### Creating pastes
+
+Para criar um novo paste, basta clicar no botão `Create Paste`, localizado no
+canto superior direito
+
+No formulário seguinte, preencha o título com o nome que desejar e, se quiser
+que o proprio Paste detecte a linguagem utilizada (para syntax highlighting),
+coloque também uma extensão depois do nome.
+
+![]()
+
+Se preferir, pode selecionar uma das linguagens disponiveis no campo `Language`
+
+![]()
+
+Digite ou copy-paste dentro o texto/código que deseja subir pro Paste
+
+![]()
+
+Selecione as visibilidade, possibilidade de edição, tags e subscribers
+desejados.
+
+![]()
+
+Agora, pra finalizar, basta clicar no botão `Create new paste`.
+
+
+---
+
+
+## Conpherence
+Conpherence é o serviço para conversação do Phabricator, que lhe permite
+conversar em grupo ou privadamente com outras pessoas
+
+Para acessa-lo, selecione `Applications` no menu esquerdo da página principal, e
+depois procure por `Conpherence`.
+Você se depará com a sua página inicial.
+
+![]()
+
+### Checking messages
+Para visualizar mensagens, o jeito mais fácil é clicando no ícone no canto
+superior esquerdo, em formato de balão ![]() e selecionando a room desejada.
+
+![]()
+
+Se preferir, pode checar na própria página do Conpherence.
+
+![]()
+
+
+### Creating a new room
+Para criar uma nova sala, basta clicar no botão `New Room`, localizado no campo
+superior direito.
+
+![]()
+
+No formulário de criação, dê um nome para a sala e selecione os participantes
+(podendo ser uma ou mais pessoas). Lembrando que você pode pesquisar por
+usernames clicando no icone de lupa ![](common/magnifier.png).
+
+![]()
+
+Após configurar as opções extras como desejar, basta clicar no botão
+`Create Room`.
+
+![]()
+
+
+---
+
+
+## Herald
+Com o Herald, podemos configurar diversas regras de notificação para
+modificações no Phabricator.
+
+
+### Creating a new rule
+Para criar uma nova regra, clique no botão superior direito `Create Herald Rule`
+![]().
+Nesse exemplo, criaremos uma regra para nos notificar via email toda vez que
+houver um commit com a mensagem contendo a palavra `bug`
+
+No primeiro formulário, selecione a opção `Commits`
+
+![]()
+
+Como só queremos NOS notificar, selecione a opção `Personal`.
+
+![]()
+
+Em `Rule Naame`, dê um nome para a notificação, no exemplo usarei `CommitBug`.
+
+![]()
+
+Em conditions, escolhemos "When **all of** ...", já que queremos que nos
+notifique para todos os commits.
+Nos campos seguintes, escolha respectivamente: `Commit message`, `contains` e,
+no campo de texto, digite `bug`.
+Para criar a condição, clique em `New Condition`.
+
+![]()
+
+Agora, na seção `Action`, selecione `Send me a email` e, em seguida, no botão
+`New Action`
+
+![]()
+
+Com tudo feito, clique em `Save Rule` e você será redirecionado para a página da
+regra recém-criada.
+
+![]()
