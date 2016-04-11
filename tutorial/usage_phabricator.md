@@ -116,6 +116,30 @@ diff.
 
 ![](differential/revision.png)
 
+Nos detalhes do diff, temos:
+- Nome do repositorio
+- Branch
+- Lint (verificador de erros)
+- Unit (para testes unitários)
+- Build status (indicando se a build foi bem sucedida ou não)
+
+![](differential/diff_detail.png)
+
+Em `Revision Update History`, temos o histórico de *diffs* dessa revisão.
+
+![](differential/history.png)
+
+Onde o podemos compará-los entre si, selecionando um para ser a base
+(em vermelho) e outro para ser a atualiazação (em verde) e clicando no botão
+`Show Diff`.
+
+![](differential/compare.png)
+
+Logo mais abaixo, podemos visualizar a diferença entre os arquivos do *diff*
+
+![](differential/code_diff.png)
+
+
 ---
 
 
@@ -153,7 +177,7 @@ respeito do novo *Mock*.
 
 ![](pholio/create1.png)
 
-Em `Projects` e `Subscribers`, você pode clicar na lupa 
+Em `Projects` e `Subscribers`, você pode clicar na lupa
 ![](common/magnifier.png) para buscar objetos relativos a cada campo.
 
 Não se esqueça de adicionar as imagens do Mockup no espaço *Drag and drop*
