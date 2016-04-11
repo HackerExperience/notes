@@ -59,6 +59,20 @@ Nos campos `New VCS Password` e `Confirm VCS Password`, preencha com uma senha
 a sua escolha, ou use a senha gerada automaticamente pelo Phabricator.
 
 
+### SSH Keys
+
+Para se autenticar utilizando-se `ssh` ao invés de `http` na hora de clonar o
+repositório, [gere uma chave SSH](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+caso não tenha e clique em `Upload public key`.
+
+![]()
+
+De um nome para identificar sua chave-publica e copie-a para o campo
+`Public Key`.
+
+![]()
+
+
 ### Email settings
 
 O campo `Self Actions` vem com a opção `Send me email when I take an action`,
