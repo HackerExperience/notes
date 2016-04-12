@@ -192,6 +192,19 @@ Depois de tudo pronto, só clicar no botão `Create`
 
 
 ## Paste
+O sistema de paste te permite fazer o upload de arquivos de texto.
+
+Para acessá-lo, clique em `Applications`, localizando no menu esquerdo.
+
+![](common/applications.png)
+
+Na lista de aplicativos, procure pelo `Paste`
+
+![](paste/applications.png)
+
+E pronto, terá acesso a lista de pastes, podendo filtra-los com as `Queries`
+
+![](paste/paste.png)
 
 
 ### Creating pastes
@@ -199,26 +212,30 @@ Depois de tudo pronto, só clicar no botão `Create`
 Para criar um novo paste, basta clicar no botão `Create Paste`, localizado no
 canto superior direito
 
+![](paste/create_button.png)
+
 No formulário seguinte, preencha o título com o nome que desejar e, se quiser
 que o proprio Paste detecte a linguagem utilizada (para syntax highlighting),
 coloque também uma extensão depois do nome.
 
-![]()
+![](paste/title.png)
 
 Se preferir, pode selecionar uma das linguagens disponiveis no campo `Language`
 
-![]()
+![](paste/lang.png)
 
 Digite ou copy-paste dentro o texto/código que deseja subir pro Paste
 
-![]()
+![](paste/text.png)
 
 Selecione as visibilidade, possibilidade de edição, tags e subscribers
 desejados.
 
-![]()
+![](paste/options.png)
 
 Agora, pra finalizar, basta clicar no botão `Create new paste`.
+
+![](paste/new_button.png)
 
 
 ---
@@ -232,35 +249,36 @@ Para acessa-lo, selecione `Applications` no menu esquerdo da página principal, 
 depois procure por `Conpherence`.
 Você se depará com a sua página inicial.
 
-![]()
+![](conpherence/conpherence.png)
 
 ### Checking messages
 Para visualizar mensagens, o jeito mais fácil é clicando no ícone no canto
-superior esquerdo, em formato de balão ![]() e selecionando a room desejada.
+superior esquerdo, em formato de balão ![](conpherence/icon.png) e selecionando
+a room desejada.
 
-![]()
+![](conpherence/fast_room.png)
 
 Se preferir, pode checar na própria página do Conpherence.
 
-![]()
+![](conpherence/room.png)
 
 
 ### Creating a new room
 Para criar uma nova sala, basta clicar no botão `New Room`, localizado no campo
 superior direito.
 
-![]()
+![](conpherence/new_button.png)
 
 No formulário de criação, dê um nome para a sala e selecione os participantes
 (podendo ser uma ou mais pessoas). Lembrando que você pode pesquisar por
 usernames clicando no icone de lupa ![](common/magnifier.png).
 
-![]()
+![](conpherence/new_room.png)
 
 Após configurar as opções extras como desejar, basta clicar no botão
 `Create Room`.
 
-![]()
+![](conpherence/create_button.png)
 
 
 ---
@@ -269,25 +287,31 @@ Após configurar as opções extras como desejar, basta clicar no botão
 ## Herald
 Com o Herald, podemos configurar diversas regras de notificação para
 modificações no Phabricator.
+Para acessa-lo, procure-o na lista de aplicativos.
 
+![](common/applications.png)
+
+![](herald/list.png)
 
 ### Creating a new rule
 Para criar uma nova regra, clique no botão superior direito `Create Herald Rule`
-![]().
+
+![](herald/create_button.png)
+
 Nesse exemplo, criaremos uma regra para nos notificar via email toda vez que
 houver um commit com a mensagem contendo a palavra `bug`
 
-No primeiro formulário, selecione a opção `Commits`
+No primeiro formulário, selecione a opção `Commits` e clique em `Continue`.
 
-![]()
+![](herald/rule_commits.png)
 
-Como só queremos NOS notificar, selecione a opção `Personal`.
+Como só queremos nos notificar, selecione a opção `Personal`.
 
-![]()
+![](herald/rule_personal.png)
 
-Em `Rule Naame`, dê um nome para a notificação, no exemplo usarei `CommitBug`.
+Em `Rule Name`, dê um nome para a notificação, no exemplo usarei `CommitBug`.
 
-![]()
+![](herald/rule_name.png)
 
 Em conditions, escolhemos "When **all of** ...", já que queremos que nos
 notifique para todos os commits.
@@ -295,14 +319,14 @@ Nos campos seguintes, escolha respectivamente: `Commit message`, `contains` e,
 no campo de texto, digite `bug`.
 Para criar a condição, clique em `New Condition`.
 
-![]()
+![](herald/rule_condition.png)
 
 Agora, na seção `Action`, selecione `Send me a email` e, em seguida, no botão
 `New Action`
 
-![]()
+![](herald/rule_action.png)
 
 Com tudo feito, clique em `Save Rule` e você será redirecionado para a página da
 regra recém-criada.
 
-![]()
+![](herald/save.png)
