@@ -5,16 +5,17 @@
 ## Cloning a repo
 Para clonar um repositório, navegue pelo `Diffusion` até o repositório desejado
 
-![]()
+![](workflow/repo.png)
 
-Na seção details da página do repositório, terá dois campos com o nome clone.
+Na seção `Details` da página do repositório, terá dois campos com o nome clone.
 Se você configurou sua `SSH Key`, copie o campo `Clone (SSH)`, caso tenha só
 configurado sua `VCS Password`, copie o campo `Clone (HTTP)`.
+
+![](workflow/clone_info.png)
+
 Com o `git` instalado, abra o seu terminal, cole o conteúdo do campo e aperte a
 tecla enter.
 O repositório será clonado para a sua máquina.
-
-![]()
 
 > Usuários Windows devem abrir o programa `Git BASH` instalado junto com o
 `git for windows`
@@ -26,30 +27,20 @@ adicionando novos arquivos.
 ## Submiting changes for review
 Para submeter alterações para review, utilizaremos da ferramenta `arc`
 (arcanist), mais precisamente, o `arc diff`.
-
 Após fazer alterações no seu repositório local, dê um `git commit -a` e, para
 criar o *diff*, execute o comando `arc diff`.
 
-![]()
-
 Após a execução, o comando te retornará a URL com o ID do seu *diff*.
-
-![]()
-
 
 
 ## Get review content
 Para aplicar o conteudo de uma revisão, basta aplicar o *diff* desejado com o
 seguinte comando:`arc patch D(id)`, onde (id) é o ID do *diff*.
 
-![]()
-
 
 ## Update a review
 Para atualizar um review, mandando ainda mais *diffs*, basta executar
 `git commit -a` e `arc diff --update D(id)`, onde (id) é o ID da sua revisão.
-
-![]()
 
 
 ## Work on other task while review is not accepted
