@@ -321,7 +321,7 @@ Para criar a condição, clique em `New Condition`.
 
 ![](herald/rule_condition.png)
 
-Agora, na seção `Action`, selecione `Send me a email` e, em seguida, no botão
+Agora, na seção `Action`, selecione `Send me an email` e, em seguida, no botão
 `New Action`
 
 ![](herald/rule_action.png)

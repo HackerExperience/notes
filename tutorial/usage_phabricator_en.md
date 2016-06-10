@@ -75,7 +75,7 @@ On the right side, there's the listing of repositories according to our *query*.
 ![](diffusion/repo1.png)
 
 ### Repository page
-On the repository's page, we have access to a lot of useful information, like commits history, branches and files browsing.
+In the repository's page, we have access to a lot of useful information, like commits history, branches and files browsing.
 
 On `Details`, we have the necessary information to *clone* the repository, in the case we'll be using the *git* tool.
 
@@ -111,17 +111,15 @@ The diff's details are:
 
 ![](differential/diff_detail.png)
 
-Em `Revision Update History`, temos o histórico de *diffs* dessa revisão.
+On `Revision Update History`, we can access the revision's *diff* history.
 
 ![](differential/history.png)
 
-Onde o podemos compará-los entre si, selecionando um para ser a base
-(em vermelho) e outro para ser a atualiazação (em verde) e clicando no botão
-`Show Diff`.
+Which can be compared with each other by selecting a "base" (red), an "update" (green) and clicking `Show Diff`.
 
 ![](differential/compare.png)
 
-Logo mais abaixo, podemos visualizar a diferença entre os arquivos do *diff*
+Just below, you can see the difference between the *diffs*.
 
 ![](differential/code_diff.png)
 
@@ -130,46 +128,42 @@ Logo mais abaixo, podemos visualizar a diferença entre os arquivos do *diff*
 
 
 ## Pholio
-Pholio te permite fazer o upload de imagens de mocks para revisão
+Pholio is the Phabricator's image and mock review system.
 
 ![](pholio/polio.png)
 
-Para visualizar os detalhes de um mockup, basta clicar no nome dele
+To see details about a mockup, click on its name.
 
 ![](pholio/polio2.png)
 
 
 ### Mockup page
-Na página do mockup, podemos visualizar mais informações sobre o mockup
+Now we can see a more detailed version of the mockup.
 
-Na seção `Image`, podemos visualizar as imagens com comentários do mockups por
-revisão.
+In the `Image` section, we can view the mockup's images with comments by revision.
 
 ![](pholio/images.png)
 
-Já em `History Beckons`, podemos postar comentários sobre o mockup.
+You can post a comment in the `History Beckons` section.
 
 ![](pholio/comment.png)
 
 
 ### Creating mockups
-Para criar um novo mockup, clique no botão `Create Mock` localizado no canto
-superior direito.
+To create a new mockup, click `Create mock`, on the upper-right corner.
 
 ![](pholio/create.png)
 
-Na página de criação, teremos que preencher um formulário com as informações a
-respeito do novo *Mock*.
+In the create page, fill out the form with the *Mock*'s information.
 
 ![](pholio/create1.png)
 
-Em `Projects` e `Subscribers`, você pode clicar na lupa
-![](common/magnifier.png) para buscar objetos relativos a cada campo.
+On `Projects` and `Subscribers`, you can click on the magnifier ![](common/magnifier.png) to search for objects.
 
-Não se esqueça de adicionar as imagens do Mockup no espaço *Drag and drop*
+Don't forget to add images in the `Drag and Drop` area
 ![](pholio/files.png)
 
-Depois de tudo pronto, só clicar no botão `Create`
+With everything done, just click `Create`.
 
 ![](common/create.png)
 
@@ -178,48 +172,44 @@ Depois de tudo pronto, só clicar no botão `Create`
 
 
 ## Paste
-O sistema de paste te permite fazer o upload de arquivos de texto.
+The paste system let you upload text files.
 
-Para acessá-lo, clique em `Applications`, localizando no menu esquerdo.
+To access it, click `Applications` in the.
 
 ![](common/applications.png)
 
-Na lista de aplicativos, procure pelo `Paste`
+In the app list, search for `Paste`.
 
 ![](paste/applications.png)
 
-E pronto, terá acesso a lista de pastes, podendo filtra-los com as `Queries`
+And it's done, you can now access the list of pastes and filter with `Queries`.
 
 ![](paste/paste.png)
 
 
 ### Creating pastes
 
-Para criar um novo paste, basta clicar no botão `Create Paste`, localizado no
-canto superior direito
+To create a new paste, just click `Create Paste` on the upper-right side.
 
 ![](paste/create_button.png)
 
-No formulário seguinte, preencha o título com o nome que desejar e, se quiser
-que o proprio Paste detecte a linguagem utilizada (para syntax highlighting),
-coloque também uma extensão depois do nome.
+In the next form, fill out the title with the desired name and (optionally) add an extension.
 
 ![](paste/title.png)
 
-Se preferir, pode selecionar uma das linguagens disponiveis no campo `Language`
+You can select a (programming) language as well in the `Language` field.
 
 ![](paste/lang.png)
 
-Digite ou copy-paste dentro o texto/código que deseja subir pro Paste
+Type or copy-paste the code you want to upload
 
 ![](paste/text.png)
 
-Selecione as visibilidade, possibilidade de edição, tags e subscribers
-desejados.
+Select the desired visibility, tags, subscribers etc.
 
 ![](paste/options.png)
 
-Agora, pra finalizar, basta clicar no botão `Create new paste`.
+To finish, click `Create new paste`.
 
 ![](paste/new_button.png)
 
@@ -228,41 +218,33 @@ Agora, pra finalizar, basta clicar no botão `Create new paste`.
 
 
 ## Conpherence
-Conpherence é o serviço para conversação do Phabricator, que lhe permite
-conversar em grupo ou privadamente com outras pessoas
+Conpherence is the Phabricator's chat system.
 
-Para acessa-lo, selecione `Applications` no menu esquerdo da página principal, e
-depois procure por `Conpherence`.
-Você se depará com a sua página inicial.
+In order to access it, select `Applications` in the main page's left menu and search for `Conpherence`1
 
 ![](conpherence/conpherence.png)
 
 ### Checking messages
-Para visualizar mensagens, o jeito mais fácil é clicando no ícone no canto
-superior esquerdo, em formato de balão ![](conpherence/icon.png) e selecionando
-a room desejada.
+To view messages, the easiest way is clicking on the bubble icon in the upper-left corner ![](conpherence/icon.png) and selecting a room.
 
 ![](conpherence/fast_room.png)
 
-Se preferir, pode checar na própria página do Conpherence.
+You can also check it in the Conpherence's page.
 
 ![](conpherence/room.png)
 
 
 ### Creating a new room
-Para criar uma nova sala, basta clicar no botão `New Room`, localizado no campo
-superior direito.
+To create a new room, just click `New Room` in the upper-left side.
 
 ![](conpherence/new_button.png)
 
-No formulário de criação, dê um nome para a sala e selecione os participantes
-(podendo ser uma ou mais pessoas). Lembrando que você pode pesquisar por
-usernames clicando no icone de lupa ![](common/magnifier.png).
+Fill out the form, by giving it a name and selecting participants.
+You can search for usernames clicking on the magnifier icon ![](common/magnifier.png).
 
 ![](conpherence/new_room.png)
 
-Após configurar as opções extras como desejar, basta clicar no botão
-`Create Room`.
+To finish, click `Craete Room`.
 
 ![](conpherence/create_button.png)
 
@@ -271,48 +253,40 @@ Após configurar as opções extras como desejar, basta clicar no botão
 
 
 ## Herald
-Com o Herald, podemos configurar diversas regras de notificação para
-modificações no Phabricator.
-Para acessa-lo, procure-o na lista de aplicativos.
+With Herald, we can setup notification rules for events, like modifications, new posts etc.
 
 ![](common/applications.png)
 
 ![](herald/list.png)
 
 ### Creating a new rule
-Para criar uma nova regra, clique no botão superior direito `Create Herald Rule`
+To create a new rule, click `Create Herald Rule` un the upper-right side.
 
 ![](herald/create_button.png)
 
-Nesse exemplo, criaremos uma regra para nos notificar via email toda vez que
-houver um commit com a mensagem contendo a palavra `bug`
+In this example, we'll be creating a new rule to notify us everytime someone makes a commit with the word `bug`
 
-No primeiro formulário, selecione a opção `Commits` e clique em `Continue`.
+In the first form, select the option `Commit` and click `Continue`.
 
 ![](herald/rule_commits.png)
 
-Como só queremos nos notificar, selecione a opção `Personal`.
+As we just want to send notifications to ourselves, select the option `Personal`.
 
 ![](herald/rule_personal.png)
 
-Em `Rule Name`, dê um nome para a notificação, no exemplo usarei `CommitBug`.
+In `Rule Name`, give a name to the notification, in this example I'll give it the name `CommitBug`.
 
 ![](herald/rule_name.png)
 
-Em conditions, escolhemos "When **all of** ...", já que queremos que nos
-notifique para todos os commits.
-Nos campos seguintes, escolha respectivamente: `Commit message`, `contains` e,
-no campo de texto, digite `bug`.
-Para criar a condição, clique em `New Condition`.
-
+In `Conditions`, select "When **all of** ...", since we want to be notified for every commit.
+In the remaining fields, select respectively: `Commit message`, `contains` and type `bug`.
+To create the condition, click `New Condition`.
 ![](herald/rule_condition.png)
 
-Agora, na seção `Action`, selecione `Send me a email` e, em seguida, no botão
-`New Action`
+Now, in the `Action` section, select `Send me an email` and then click `New Action`.
 
 ![](herald/rule_action.png)
 
-Com tudo feito, clique em `Save Rule` e você será redirecionado para a página da
-regra recém-criada.
+With everything done, click `Save Rule` and you'll be redirected to the newly created page.
 
 ![](herald/save.png)
