@@ -2,168 +2,142 @@
 
 ---
 
-## Maniphest
-Maniphest is the Phabricator's task manager.
-It's interface is pretty intuitive.
+Maniphest is Phabricator's task manager. It's where we track issues, discuss new features and solve any sort of problems related to the game and its components.
 
-![](maniphest/maniphest.png)
+{F2952, size=full, layout=center}
 
-On the left side, we can filter all existing tasks through *Queries*.
+On the left side we can filter all existing tasks through //Queries//.
+
 By default, we have a quick access to the following filters:
-- Assigned: tasks assigneds to you
-- Subscribed: tasks you're subscribed
-- Open Tasks: self explanatory
-- All Tasks: all tasks that are visible to you
+- **Assigned** - tasks assigned to you.
+- **Subscribed** - tasks you are following.
+- **Open Tasks** - tasks that are not resolved yet.
+- **All Tasks** - all tasks that are visible to you.
 
-The *Search* sections gives a way to perform a detailed search through `Advanced Search`.
+The //Search// sections allows you to perform a detailed search through `Advanced Search`.
 
-![](maniphest/advanced_search.png)
+{F2948, size=full, layout=center}
 
-The vast majority of fields are self explanatory and, when clicking on the magnifier icon, you'll see a interactive list of object to compose the search.
+The vast majority of fields are self explanatory and, when clicking on the magnifier icon, you'll see an interactive list of object to compose the search.
 
-![](maniphest/advanced_search_2.png)
+{F2950, size=full, layout=center}
 
-![](maniphest/advanced_search_3.png)
+{F2956, size=full, layout=center}
 
-After filling the fields with what you want to search, just click `Execute Query` to perform the search.
+After filling the fields with what you want, just click `Execute Query` to perform the search.
 
-![](maniphest/execute_query.png)
-
+{F2949, size=full, layout=center}
 
 ### Creating tasks
 
-To create a new task, just click `Create Task`, located in the upper-right corner.
+To create a new task, just click on `Create Task`, located in the upper-right corner.
 
-![](maniphest/create_task.png)
+{F2958, size=full, layout=center}
 
-Soon after that, a menu will show up with all possible tasks to be created.
+Soon after that, a menu will show up with all possible tasks to be created. Select the one that best matches your task.
 
-![](maniphest/create_task2.png)
+{F2953, size=full, layout=center}
 
 #### Request a Feature
-As the name suggests, it's the form to send a feature suggestion.
-Must have a title and, if possible, a description of the Feature.
 
-![](maniphest/feature.png)
+This is the form to suggest a feature. Fill the fields with your suggestions details and then submit it.
+
+{F2951, size=full, layout=center}
 
 #### Report a Bug
-When you find a bug, you can report it through Maniphest itself.
 
-![](maniphest/bug.png)
+This is the form to report a bug. Describe it as detailed as you can and submit the task.
 
-In addition to the title, description and tags, you must select a priority to the bug.
-
-![](maniphest/bug_priority.png)
+{F2955, size=full, layout=center}
 
 #### Custom Task
 
-![](maniphest/custom.png)
+You can add generic tasks, with specific options, by using the `Custom Task` form. To avoid abuse, this option is only available to members of the group #contributors.
 
----
-
-
-## Diffusion
-Diffusion is the Phabricator's repository system
-
-![](diffusion/diffusion.png)
-
-On the left side, you can quickly filter repositories with `Queries`, that can filter by *Active Repositories* and *All Repositories*.
-Also, you can perform complex searches using the `Advanced Search`
-
-On the right side, there's the listing of repositories according to our *query*.
-
-![](diffusion/repo1.png)
-
-### Repository page
-In the repository's page, we have access to a lot of useful information, like commits history, branches and files browsing.
-
-On `Details`, we have the necessary information to *clone* the repository, in the case we'll be using the *git* tool.
-
-![](diffusion/details.png)
-
-Another useful section is the one which let us browser through the repository's content, usually it's under the repository's name. Clicking `Browser Respository`, you will be able to browser over all of the repository's files.
-
-![](diffusion/repo2.png)
-
-You can also browse through the commits' history.
-
-![](diffusion/repo3.png)
+{F2954, size=full, layout=center}
 
 ---
 
 
 ## Differential
-Differential is the Phabricator's code review system
+Differential is Phabricator's code review application. It's the place where we review, discuss and accept/reject submitted patches.
 
-![](differential/differential.png)
+{F2963, size=full, layout=center}
 
 ### Review Page
-The first section show us some basic information about the review, such as author, project, *Patch* command, and `Summary`.
 
-![](differential/revision.png)
+The first section show us some basic information about the review, such as author, project, associated tasks and `Summary`.
 
-The diff's details are:
+{F2961, size=full, layout=center}
+
+The diff details are:
 - Repository's name
 - Branch
 - Lint (error checker)
 - Unit (for unit tests)
-- Build status (indicates if the build was succesfull)
+- Build status (indicates whether the build was successful)
 
-![](differential/diff_detail.png)
+{F2962, size=full, layout=center}
 
-On `Revision Update History`, we can access the revision's *diff* history.
+Em `Revision Update History`, temos o histórico de *diffs* dessa revisão.
 
-![](differential/history.png)
+{F2964, size=full, layout=center}
 
-Which can be compared with each other by selecting a "base" (red), an "update" (green) and clicking `Show Diff`.
+Onde o podemos compará-los entre si, selecionando um para ser a base
+(em vermelho) e outro para ser a atualiazação (em verde) e clicando no botão
+`Show Diff`.
 
-![](differential/compare.png)
+{F2965, size=full, layout=center}
 
-Just below, you can see the difference between the *diffs*.
+Logo mais abaixo, podemos visualizar a diferença entre os arquivos do *diff*
 
-![](differential/code_diff.png)
+{F2960, size=full, layout=center}
 
 
 ---
 
 
 ## Pholio
-Pholio is the Phabricator's image and mock review system.
+Pholio te permite fazer o upload de imagens de mocks para revisão
 
 ![](pholio/polio.png)
 
-To see details about a mockup, click on its name.
+Para visualizar os detalhes de um mockup, basta clicar no nome dele
 
 ![](pholio/polio2.png)
 
 
 ### Mockup page
-Now we can see a more detailed version of the mockup.
+Na página do mockup, podemos visualizar mais informações sobre o mockup
 
-In the `Image` section, we can view the mockup's images with comments by revision.
+Na seção `Image`, podemos visualizar as imagens com comentários do mockups por
+revisão.
 
 ![](pholio/images.png)
 
-You can post a comment in the `History Beckons` section.
+Já em `History Beckons`, podemos postar comentários sobre o mockup.
 
 ![](pholio/comment.png)
 
 
 ### Creating mockups
-To create a new mockup, click `Create mock`, on the upper-right corner.
+Para criar um novo mockup, clique no botão `Create Mock` localizado no canto
+superior direito.
 
 ![](pholio/create.png)
 
-In the create page, fill out the form with the *Mock*'s information.
+Na página de criação, teremos que preencher um formulário com as informações a
+respeito do novo *Mock*.
 
 ![](pholio/create1.png)
 
-On `Projects` and `Subscribers`, you can click on the magnifier ![](common/magnifier.png) to search for objects.
+Em `Projects` e `Subscribers`, você pode clicar na lupa
+![](common/magnifier.png) para buscar objetos relativos a cada campo.
 
-Don't forget to add images in the `Drag and Drop` area
+Não se esqueça de adicionar as imagens do Mockup no espaço *Drag and drop*
 ![](pholio/files.png)
 
-With everything done, just click `Create`.
+Depois de tudo pronto, só clicar no botão `Create`
 
 ![](common/create.png)
 
@@ -172,44 +146,48 @@ With everything done, just click `Create`.
 
 
 ## Paste
-The paste system let you upload text files.
+O sistema de paste te permite fazer o upload de arquivos de texto.
 
-To access it, click `Applications` in the.
+Para acessá-lo, clique em `Applications`, localizando no menu esquerdo.
 
 ![](common/applications.png)
 
-In the app list, search for `Paste`.
+Na lista de aplicativos, procure pelo `Paste`
 
 ![](paste/applications.png)
 
-And it's done, you can now access the list of pastes and filter with `Queries`.
+E pronto, terá acesso a lista de pastes, podendo filtra-los com as `Queries`
 
 ![](paste/paste.png)
 
 
 ### Creating pastes
 
-To create a new paste, just click `Create Paste` on the upper-right side.
+Para criar um novo paste, basta clicar no botão `Create Paste`, localizado no
+canto superior direito
 
 ![](paste/create_button.png)
 
-In the next form, fill out the title with the desired name and (optionally) add an extension.
+No formulário seguinte, preencha o título com o nome que desejar e, se quiser
+que o proprio Paste detecte a linguagem utilizada (para syntax highlighting),
+coloque também uma extensão depois do nome.
 
 ![](paste/title.png)
 
-You can select a (programming) language as well in the `Language` field.
+Se preferir, pode selecionar uma das linguagens disponiveis no campo `Language`
 
 ![](paste/lang.png)
 
-Type or copy-paste the code you want to upload
+Digite ou copy-paste dentro o texto/código que deseja subir pro Paste
 
 ![](paste/text.png)
 
-Select the desired visibility, tags, subscribers etc.
+Selecione as visibilidade, possibilidade de edição, tags e subscribers
+desejados.
 
 ![](paste/options.png)
 
-To finish, click `Create new paste`.
+Agora, pra finalizar, basta clicar no botão `Create new paste`.
 
 ![](paste/new_button.png)
 
@@ -218,33 +196,41 @@ To finish, click `Create new paste`.
 
 
 ## Conpherence
-Conpherence is the Phabricator's chat system.
+Conpherence é o serviço para conversação do Phabricator, que lhe permite
+conversar em grupo ou privadamente com outras pessoas
 
-In order to access it, select `Applications` in the main page's left menu and search for `Conpherence`1
+Para acessa-lo, selecione `Applications` no menu esquerdo da página principal, e
+depois procure por `Conpherence`.
+Você se depará com a sua página inicial.
 
 ![](conpherence/conpherence.png)
 
 ### Checking messages
-To view messages, the easiest way is clicking on the bubble icon in the upper-left corner ![](conpherence/icon.png) and selecting a room.
+Para visualizar mensagens, o jeito mais fácil é clicando no ícone no canto
+superior esquerdo, em formato de balão ![](conpherence/icon.png) e selecionando
+a room desejada.
 
 ![](conpherence/fast_room.png)
 
-You can also check it in the Conpherence's page.
+Se preferir, pode checar na própria página do Conpherence.
 
 ![](conpherence/room.png)
 
 
 ### Creating a new room
-To create a new room, just click `New Room` in the upper-left side.
+Para criar uma nova sala, basta clicar no botão `New Room`, localizado no campo
+superior direito.
 
 ![](conpherence/new_button.png)
 
-Fill out the form, by giving it a name and selecting participants.
-You can search for usernames clicking on the magnifier icon ![](common/magnifier.png).
+No formulário de criação, dê um nome para a sala e selecione os participantes
+(podendo ser uma ou mais pessoas). Lembrando que você pode pesquisar por
+usernames clicando no icone de lupa ![](common/magnifier.png).
 
 ![](conpherence/new_room.png)
 
-To finish, click `Craete Room`.
+Após configurar as opções extras como desejar, basta clicar no botão
+`Create Room`.
 
 ![](conpherence/create_button.png)
 
@@ -253,40 +239,48 @@ To finish, click `Craete Room`.
 
 
 ## Herald
-With Herald, we can setup notification rules for events, like modifications, new posts etc.
+Com o Herald, podemos configurar diversas regras de notificação para
+modificações no Phabricator.
+Para acessa-lo, procure-o na lista de aplicativos.
 
 ![](common/applications.png)
 
 ![](herald/list.png)
 
 ### Creating a new rule
-To create a new rule, click `Create Herald Rule` un the upper-right side.
+Para criar uma nova regra, clique no botão superior direito `Create Herald Rule`
 
 ![](herald/create_button.png)
 
-In this example, we'll be creating a new rule to notify us everytime someone makes a commit with the word `bug`
+Nesse exemplo, criaremos uma regra para nos notificar via email toda vez que
+houver um commit com a mensagem contendo a palavra `bug`
 
-In the first form, select the option `Commit` and click `Continue`.
+No primeiro formulário, selecione a opção `Commits` e clique em `Continue`.
 
 ![](herald/rule_commits.png)
 
-As we just want to send notifications to ourselves, select the option `Personal`.
+Como só queremos nos notificar, selecione a opção `Personal`.
 
 ![](herald/rule_personal.png)
 
-In `Rule Name`, give a name to the notification, in this example I'll give it the name `CommitBug`.
+Em `Rule Name`, dê um nome para a notificação, no exemplo usarei `CommitBug`.
 
 ![](herald/rule_name.png)
 
-In `Conditions`, select "When **all of** ...", since we want to be notified for every commit.
-In the remaining fields, select respectively: `Commit message`, `contains` and type `bug`.
-To create the condition, click `New Condition`.
+Em conditions, escolhemos "When **all of** ...", já que queremos que nos
+notifique para todos os commits.
+Nos campos seguintes, escolha respectivamente: `Commit message`, `contains` e,
+no campo de texto, digite `bug`.
+Para criar a condição, clique em `New Condition`.
+
 ![](herald/rule_condition.png)
 
-Now, in the `Action` section, select `Send me an email` and then click `New Action`.
+Agora, na seção `Action`, selecione `Send me a email` e, em seguida, no botão
+`New Action`
 
 ![](herald/rule_action.png)
 
-With everything done, click `Save Rule` and you'll be redirected to the newly created page.
+Com tudo feito, clique em `Save Rule` e você será redirecionado para a página da
+regra recém-criada.
 
 ![](herald/save.png)

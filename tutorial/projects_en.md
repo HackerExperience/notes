@@ -2,35 +2,34 @@
 
 ---
 
-## What's it?
-Projects, on Phabricator, are small workspaces dedicated to group and manage people and their actions within the Phabricator.
+Projects are workspaces dedicated to a specific subject. Think of it as //tags//. People can subscribe to different projects. Examples of projects include #elixir, #infrastructure, #bug, #game_design and #hacker_experience_2.
 
-In order to access it, click on `Projects`, located on the menu in the left.
+In order to access the Projects application, click on `Projects` located on the left menu.
 
-![](projects/projects.png)
+{F2971, size=full, layout=center}
 
 If you aren't in any project, change to `All` in the `Queries` menu in order to list all projects.
 
-![](projects/query_all.png)
+{F2968, size=full, layout=center}
 
 Click on any project to visit its page.
 
-![](projects/list.png)
+{F2973, size=full, layout=center}
 
 The project's page shows some informations about the project, like its description, recent activity, members etc
 
-![](projects/info.png)
+{F2969, size=full, layout=center}
 
 To receive notifications about a project, just subscribe by clicking on the `Watch Project` button, located on the upper-left corner.
 
-![](projects/watch.png)
+{F2970, size=full, layout=center}
 
 ## Tasks Status
 
 To check the current progress of a project's task, just access its `Workboard`.
 
-![](projects/workboard.png)
+{F2967, size=full, layout=center}
 
 Now, on the `Workboard` page, we can see a bunch of *tasks* organized in sections.
 
-![](projects/workboard2.png)
+{F2972, size=full, layout=center}
